@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('git checkout') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+         stage('compiling') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+         stage('testing') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+         stage('packaging') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+         stage('docker build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+         stage('docker login') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+         stage('docker push') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
